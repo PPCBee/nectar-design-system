@@ -1,0 +1,24 @@
+[
+  {
+    "id": "63cc47352080294786cc6ec4c1a66c56dbbd4346",
+    "name": "nds-ppcbee-light",
+    "selectedTokenSets": {
+      "nds-default-light": "enabled",
+      "nds-default-dark": "disabled",
+      "nds-new-brand": "disabled",
+      "core": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "e217f2884a601f0a45ccaee0ec267f1ef5931320",
+    "name": "nds-ppcbee-dark",
+    "selectedTokenSets": {
+      "nds-default-light": "enabled",
+      "nds-default-dark": "enabled",
+      "nds-new-brand": "disabled",
+      "core": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
