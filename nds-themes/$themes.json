@@ -3,10 +3,10 @@
     "id": "63cc47352080294786cc6ec4c1a66c56dbbd4346",
     "name": "nds-ppcbee-light",
     "selectedTokenSets": {
-      "nds-default-light": "enabled",
-      "nds-default-dark": "disabled",
-      "nds-new-brand": "disabled",
-      "core": "enabled"
+      "core": "enabled",
+      "PPCBee / 01 - light": "enabled",
+      "PPCBee / 02 - dark": "disabled",
+      "Dotidot / 01 - light": "disabled"
     },
     "$figmaStyleReferences": {}
   },
@@ -14,10 +14,21 @@
     "id": "e217f2884a601f0a45ccaee0ec267f1ef5931320",
     "name": "nds-ppcbee-dark",
     "selectedTokenSets": {
-      "nds-default-light": "enabled",
-      "nds-default-dark": "enabled",
-      "nds-new-brand": "disabled",
-      "core": "enabled"
+      "core": "enabled",
+      "PPCBee / 01 - light": "enabled",
+      "PPCBee / 02 - dark": "enabled",
+      "Dotidot / 01 - light": "disabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
+    "id": "66d03ab158baf65dc85aa6556906267f7ab4787b",
+    "name": "nds-dotidot-light",
+    "selectedTokenSets": {
+      "core": "enabled",
+      "PPCBee / 01 - light": "disabled",
+      "PPCBee / 02 - dark": "disabled",
+      "Dotidot / 01 - light": "enabled"
     },
     "$figmaStyleReferences": {}
   }
