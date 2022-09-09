@@ -1,0 +1,263 @@
+{
+  "color": {
+    "canvas": {
+      "default": {
+        "value": "{palette.extra.tuner-yellow}",
+        "type": "color",
+        "description": "nds-default-light.color.canvas.default"
+      }
+    },
+    "surface": {
+      "default": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.surface.default"
+      },
+      "muted": {
+        "value": "{palette.secondary.secondary-40}",
+        "type": "color",
+        "description": "nds-default-light.color.surface.muted"
+      },
+      "subtle": {
+        "value": "{palette.secondary.secondary-60}",
+        "type": "color",
+        "description": "nds-default-light.color.surface.subtle"
+      },
+      "intense": {
+        "value": "{palette.secondary.secondary-140}",
+        "type": "color",
+        "description": "nds-default-light.color.surface.intense"
+      }
+    },
+    "foreground": {
+      "default": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.foreground.default"
+      },
+      "muted": {
+        "value": "{palette.secondary.secondary-100}",
+        "type": "color",
+        "description": "nds-default-light.color.foreground.muted"
+      },
+      "subtle": {
+        "value": "{palette.secondary.secondary-120}",
+        "type": "color",
+        "description": "nds-default-light.color.foreground.subtle"
+      },
+      "intense": {
+        "value": "{color.action.subtle}",
+        "type": "color",
+        "description": "nds-default-light.color.foreground.intense"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{palette.secondary.secondary-60}",
+        "type": "color",
+        "description": "nds-default-light.color.border.default"
+      },
+      "emphasis": {
+        "value": "{palette.tertiary.tertiary-40}",
+        "type": "color",
+        "description": "nds-default-light.color.border.emphasis"
+      },
+      "intense": {
+        "value": "{palette.tertiary.tertiary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.border.intense"
+      }
+    },
+    "action": {
+      "ghost": {
+        "value": "{palette.primary.primary-40}",
+        "type": "color",
+        "description": "nds-default-light.color.action.ghost"
+      },
+      "muted": {
+        "value": "{palette.primary.primary-60}",
+        "type": "color",
+        "description": "nds-default-light.color.action.muted"
+      },
+      "subtle": {
+        "value": "{palette.primary.primary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.action.subtle"
+      },
+      "intense": {
+        "value": "{palette.primary.primary-100}",
+        "type": "color",
+        "description": "nds-default-light.color.action.intense"
+      },
+      "prominent": {
+        "value": "{palette.primary.primary-120}",
+        "type": "color",
+        "description": "nds-default-light.color.action.prominent"
+      },
+      "on-action": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.action.on-action"
+      }
+    },
+    "critical": {
+      "ghost": {
+        "value": "{palette.critical.critical-40}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.ghost"
+      },
+      "muted": {
+        "value": "{palette.critical.critical-60}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.muted"
+      },
+      "subtle": {
+        "value": "{palette.critical.critical-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.subtle"
+      },
+      "intense": {
+        "value": "{palette.critical.critical-100}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.intense"
+      },
+      "prominent": {
+        "value": "{palette.critical.critical-120}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.prominent"
+      },
+      "on-critical": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.critical.on-critical"
+      }
+    },
+    "positive": {
+      "ghost": {
+        "value": "{palette.positive.positive-40}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.ghost"
+      },
+      "muted": {
+        "value": "{palette.positive.positive-60}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.muted"
+      },
+      "subtle": {
+        "value": "{palette.positive.positive-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.subtle"
+      },
+      "intense": {
+        "value": "{palette.positive.positive-100}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.intense"
+      },
+      "prominent": {
+        "value": "{palette.positive.positive-120}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.prominent"
+      },
+      "on-positive": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.positive.on-positive"
+      }
+    },
+    "warning": {
+      "ghost": {
+        "value": "{palette.warning.warning-40}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.ghost"
+      },
+      "muted": {
+        "value": "{palette.warning.warning-60}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.muted"
+      },
+      "subtle": {
+        "value": "{palette.warning.warning-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.subtle"
+      },
+      "intense": {
+        "value": "{palette.warning.warning-100}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.intense"
+      },
+      "prominent": {
+        "value": "{palette.warning.warning-120}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.prominent"
+      },
+      "on-warning": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.warning.on-warning"
+      }
+    },
+    "input": {
+      "bg-default": {
+        "value": "{palette.secondary.secondary-20}",
+        "type": "color",
+        "description": "nds-default-light.color.input.bg-default"
+      },
+      "bg-emphasis": {
+        "value": "{palette.basic.white}",
+        "type": "color",
+        "description": "nds-default-light.color.input.bg-emphasis"
+      },
+      "text-default": {
+        "value": "{palette.secondary.secondary-140}",
+        "type": "color",
+        "description": "nds-default-light.color.input.text-default"
+      },
+      "placeholder-default": {
+        "value": "{palette.secondary.secondary-100}",
+        "type": "color",
+        "description": "nds-default-light.color.input.placeholder-default"
+      },
+      "action-fg-default": {
+        "value": "{palette.secondary.secondary-120}",
+        "type": "color",
+        "description": "nds-default-light.color.input.action-fg-default"
+      },
+      "border-subtle": {
+        "value": "{palette.tertiary.tertiary-40}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-subtle"
+      },
+      "border-intense": {
+        "value": "{palette.tertiary.tertiary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-intense"
+      },
+      "border-active": {
+        "value": "{palette.primary.primary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-active"
+      }
+    },
+    "focus": {
+      "default": {
+        "value": "{palette.primary.primary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.focus.default"
+      }
+    },
+    "brand-accent": {
+      "default": {
+        "value": "{palette.basic.bee-yellow}",
+        "type": "color",
+        "description": "nds-default-light.color.brand-accent.default"
+      }
+    },
+    "overlay": {
+      "default": {
+        "value": "rgba({palette.secondary.secondary-100}, 0.45)",
+        "type": "color",
+        "description": "nds-default-light.color.overlay.default"
+      }
+    }
+  }
+}
