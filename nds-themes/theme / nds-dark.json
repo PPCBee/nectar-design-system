@@ -1,8 +1,8 @@
 {
-  "color": {
+  "semantic": {
     "canvas": {
       "default": {
-        "value": "{color.surface.intense}",
+        "value": "{semantic.surface.intense}",
         "type": "color",
         "description": "nds-default-light.color.canvas.default"
       }
