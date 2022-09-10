@@ -1,5 +1,5 @@
 {
-  "color": {
+  "semantic": {
     "canvas": {
       "default": {
         "value": "{palette.basic.light}",
@@ -14,16 +14,21 @@
         "description": "nds-default-light.color.surface.default"
       },
       "muted": {
+        "value": "{palette.secondary.secondary-20}",
+        "type": "color",
+        "description": "nds-default-light.color.surface.default"
+      },
+      "subtle": {
         "value": "{palette.secondary.secondary-40}",
         "type": "color",
         "description": "nds-default-light.color.surface.muted"
       },
-      "subtle": {
+      "intense": {
         "value": "{palette.secondary.secondary-60}",
         "type": "color",
         "description": "nds-default-light.color.surface.subtle"
       },
-      "intense": {
+      "prominent": {
         "value": "{palette.secondary.secondary-140}",
         "type": "color",
         "description": "nds-default-light.color.surface.intense"
@@ -57,12 +62,12 @@
         "type": "color",
         "description": "nds-default-light.color.border.default"
       },
-      "emphasis": {
+      "muted": {
         "value": "{palette.tertiary.tertiary-40}",
         "type": "color",
         "description": "nds-default-light.color.border.emphasis"
       },
-      "intense": {
+      "subtle": {
         "value": "{palette.tertiary.tertiary-80-base}",
         "type": "color",
         "description": "nds-default-light.color.border.intense"
@@ -196,48 +201,6 @@
         "description": "nds-default-light.color.warning.on-warning"
       }
     },
-    "input": {
-      "bg-default": {
-        "value": "{palette.secondary.secondary-20}",
-        "type": "color",
-        "description": "nds-default-light.color.input.bg-default"
-      },
-      "bg-emphasis": {
-        "value": "{palette.basic.white}",
-        "type": "color",
-        "description": "nds-default-light.color.input.bg-emphasis"
-      },
-      "text-default": {
-        "value": "{palette.secondary.secondary-140}",
-        "type": "color",
-        "description": "nds-default-light.color.input.text-default"
-      },
-      "placeholder-default": {
-        "value": "{palette.secondary.secondary-100}",
-        "type": "color",
-        "description": "nds-default-light.color.input.placeholder-default"
-      },
-      "action-fg-default": {
-        "value": "{palette.secondary.secondary-120}",
-        "type": "color",
-        "description": "nds-default-light.color.input.action-fg-default"
-      },
-      "border-subtle": {
-        "value": "{palette.tertiary.tertiary-40}",
-        "type": "color",
-        "description": "nds-default-light.color.input.border-subtle"
-      },
-      "border-intense": {
-        "value": "{palette.tertiary.tertiary-80-base}",
-        "type": "color",
-        "description": "nds-default-light.color.input.border-intense"
-      },
-      "border-active": {
-        "value": "{palette.primary.primary-80-base}",
-        "type": "color",
-        "description": "nds-default-light.color.input.border-active"
-      }
-    },
     "focus": {
       "default": {
         "value": "{palette.primary.primary-80-base}",
@@ -257,6 +220,45 @@
         "value": "rgba({palette.secondary.secondary-100}, 0.45)",
         "type": "color",
         "description": "nds-default-light.color.overlay.default"
+      }
+    }
+  },
+  "component": {
+    "input": {
+      "bg-default": {
+        "value": "{semantic.surface.muted}",
+        "type": "color",
+        "description": "nds-default-light.color.input.bg-default"
+      },
+      "bg-active": {
+        "value": "{semantic.surface.default}",
+        "type": "color",
+        "description": "nds-default-light.color.input.bg-emphasis"
+      },
+      "text-active": {
+        "value": "{semantic.foreground.intense}",
+        "type": "color",
+        "description": "nds-default-light.color.input.text-default"
+      },
+      "placeholder-default": {
+        "value": "{semantic.foreground.muted}",
+        "type": "color",
+        "description": "nds-default-light.color.input.placeholder-default"
+      },
+      "border-default": {
+        "value": "{semantic.border.muted}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-subtle"
+      },
+      "border-hover": {
+        "value": "{semantic.border.subtle}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-intense"
+      },
+      "border-active": {
+        "value": "{palette.primary.primary-80-base}",
+        "type": "color",
+        "description": "nds-default-light.color.input.border-active"
       }
     }
   },
@@ -747,16 +749,6 @@
         "textCase": "{typeset.text-case.none}"
       },
       "type": "typography"
-    }
-  },
-  "border-radius": {
-    "layout-elements": {
-      "value": "{border-radius.lg}",
-      "type": "borderRadius"
-    },
-    "components": {
-      "value": "{border-radius.md}",
-      "type": "borderRadius"
     }
   }
 }

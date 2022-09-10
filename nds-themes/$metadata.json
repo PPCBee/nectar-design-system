@@ -2,7 +2,6 @@
   "tokenSetOrder": [
     "nds-global",
     "nds-semantic",
-    "theme / nds-light",
     "theme / nds-dark",
     "brand / nds-dotidot"
   ]

@@ -5,7 +5,6 @@
     "selectedTokenSets": {
       "nds-global": "enabled",
       "nds-semantic": "disabled",
-      "theme / nds-light": "enabled",
       "theme / nds-dark": "disabled",
       "brand / nds-dotidot": "disabled"
     },
@@ -219,7 +218,6 @@
     "selectedTokenSets": {
       "nds-global": "enabled",
       "nds-semantic": "disabled",
-      "theme / nds-light": "disabled",
       "theme / nds-dark": "enabled",
       "brand / nds-dotidot": "disabled"
     },
