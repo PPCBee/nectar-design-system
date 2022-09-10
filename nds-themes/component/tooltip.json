@@ -1,1 +1,24 @@
-{}
+{
+  "tooltip": {
+    "background": {
+      "value": "{semantic.surface.prominent}",
+      "type": "color"
+    },
+    "label": {
+      "default": {
+        "value": "{body.lg}",
+        "type": "typography"
+      }
+    },
+    "spacing": {
+      "vertical": {
+        "value": "{spacing.5xs}",
+        "type": "spacing"
+      },
+      "horizontal": {
+        "value": "{spacing.5xs}",
+        "type": "spacing"
+      }
+    }
+  }
+}
