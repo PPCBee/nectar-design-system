@@ -1,0 +1,39 @@
+{
+  "input": {
+    "bg-default": {
+      "value": "{semantic.surface.muted}",
+      "type": "color",
+      "description": "nds-default-light.color.input.bg-default"
+    },
+    "bg-active": {
+      "value": "{semantic.surface.default}",
+      "type": "color",
+      "description": "nds-default-light.color.input.bg-emphasis"
+    },
+    "text-active": {
+      "value": "{semantic.foreground.intense}",
+      "type": "color",
+      "description": "nds-default-light.color.input.text-default"
+    },
+    "placeholder-default": {
+      "value": "{semantic.foreground.muted}",
+      "type": "color",
+      "description": "nds-default-light.color.input.placeholder-default"
+    },
+    "border-default": {
+      "value": "{semantic.border.muted}",
+      "type": "color",
+      "description": "nds-default-light.color.input.border-subtle"
+    },
+    "border-hover": {
+      "value": "{semantic.border.subtle}",
+      "type": "color",
+      "description": "nds-default-light.color.input.border-intense"
+    },
+    "border-active": {
+      "value": "{palette.primary.primary-80-base}",
+      "type": "color",
+      "description": "nds-default-light.color.input.border-active"
+    }
+  }
+}
