@@ -2,8 +2,10 @@
   "tokenSetOrder": [
     "nds-global",
     "nds-semantic",
-    "theme / nds-light",
-    "theme / nds-dark",
-    "brand / nds-dotidot"
+    "component/tooltip",
+    "component/button",
+    "component/dropdown",
+    "component/input",
+    "theme / nds-dark"
   ]
 }

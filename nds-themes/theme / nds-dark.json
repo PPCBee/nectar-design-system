@@ -2,7 +2,7 @@
   "color": {
     "canvas": {
       "default": {
-        "value": "{palette.basic.light}",
+        "value": "{color.surface.intense}",
         "type": "color",
         "description": "nds-default-light.color.canvas.default"
       }
